@@ -1,0 +1,87 @@
+header {
+    background-image: url(../img/headerBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 68%;
+    height: 95vh;
+
+    position: relative;
+}
+
+
+.fondoOscuro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ac;
+}
+
+.botonesHeader {
+    background-color: rgb(254, 21, 21);
+    border: none;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.4s;
+
+}
+
+.botonesHeader:hover {
+    background-color: red;
+}
+
+.backgroundNavBar {
+    background-color: rgb(254, 21, 21);
+    width: 100%;
+}
+
+.cardCombo {
+    width: 90%;
+    max-width: 18rem;
+    background-color: #e7cfe38b;
+    transition: box-shadow .4s;
+}
+
+.cardCombo:hover {
+    box-shadow: 0px 1rem 1.5rem 0px rgba(0, 0, 0, 0.75);
+}
+
+.contenedorCardCombo {
+    padding-left: 1rem;
+}
+
+.precio {
+    text-decoration: line-through;
+}
+
+.botonesCompras {
+    border: 1px solid #9f9f9f;
+    background-color: rgba(255, 192, 203, 0.347);
+
+    margin: 0.5rem 0 1rem;
+}
+
+
+@media only screen and (min-width: 575px) {
+    .backgroundNavBar {
+        background-color: #000;
+    }
+
+    .gridResponive {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardComboUltimo {
+        grid-column: 1 / 3;
+        max-width: unset;
+    }
+
+    
+    .cardComboUltimo  img{
+        aspect-ratio: 2;
+        object-fit: cover;
+    }
+}
