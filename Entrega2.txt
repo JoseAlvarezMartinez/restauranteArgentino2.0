@@ -1,0 +1,27 @@
+ENTREGAR SI O SI POR GITHUB Y EL GITHUB PAGES ACTIVADO
+
+HTML:
+
+- Buena semántica.
+- Atributos alt="" completos.
+- No repetir h1.
+- No usar tantos divs, no son buenos semánticamente.
+
+
+CSS:
+- Reutilizar clases.
+- Eliminar selectores los cuales no son utilizados.
+- No usar estilos en linea ni estilos internos.
+- SOLAMENTE un archivo de CSS.
+
+Responsive:
+- Implementación de media queries (si o si) en 2 paginas nomás.
+- Aplicar responsive bootstrap (opcional)
+- Mobile first (opcional - ideal)
+- Responsive para mobile - desktop.
+
+Bootstrap:
+- Aplicar grid.
+- Aplicar estilos.
+
+
